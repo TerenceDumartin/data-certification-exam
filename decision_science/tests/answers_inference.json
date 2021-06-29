@@ -1,0 +1,7 @@
+{
+    "MEDIAN_AGE": "\nWhen median_age increase of 1 year, number of crimes (NB_INCIDENT) increase on average by 2252.734415\n",
+    "T_STAT": "\nt-statistic is the ratio of the estimated value of NB_INCIDENT from its hypothesized value to its standard error, \nto determine if the hypothesis is support or rejected.\nThe t-statistic is computed by:  (MEDIAN_AGE coeff - (Hypothesis Null)) / MEDIAN_AGE Standard Error\n",
+    "P_VALUE": "\nProba that what you observed is just due to pure chance.\np-value > 0.05 the relationship between MEDIAN_AGE and NB_INCIDENT is statiscally significant at 90 and 95%\n",
+    "INCREASE": "\nBy holding all other regressors constant, the NB_INCIDENT decrease by 2115.1839 when PERC_MARRIED_COUPLE_FAMILY increase by 1\n",
+    "LIMITATIONS": "\n89,9% of the variance in weight can be explained by the combined variations in our different features.\nSo, the main limitation is based on the highly correlation of some of our features or because a factor might be a missing in our model!.\n"
+}
